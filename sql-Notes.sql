@@ -20,19 +20,11 @@ alter table student drop column student_GPA
 
 select * from student
 
-
-
+select * from student
 
 select * from student
 
-
 select * from student
-
-
-
-select * from student
-
-
 
 
 
@@ -218,3 +210,5 @@ select * from student where student_deptement in ('math','biology');
 
 select * from student where student_deptement in ('math','biology') and student_id <=4;
 
+
+---- part one over here -----
